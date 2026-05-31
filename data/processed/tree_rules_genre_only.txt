@@ -1,0 +1,175 @@
+Genre-Only Decision Tree Rules
+max_depth=10, min_samples_split=20
+CV Accuracy: 0.4372
+Classes: {np.int64(0): 'Forgotten', np.int64(1): 'MassFav', np.int64(2): 'Cult', np.int64(3): 'Popcorn'}
+======================================================================
+
+|--- runtime_minutes <= 105.50
+|   |--- genre_Horror <= 0.50
+|   |   |--- genre_Documentary <= 0.50
+|   |   |   |--- genre_Drama <= 0.50
+|   |   |   |   |--- genre_Animation <= 0.50
+|   |   |   |   |   |--- year <= 2011.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- year >  2011.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- genre_Animation >  0.50
+|   |   |   |   |   |--- genre_Comedy <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Comedy >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- genre_Drama >  0.50
+|   |   |   |   |--- genre_Action <= 0.50
+|   |   |   |   |   |--- genre_Mystery <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Mystery >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- genre_Action >  0.50
+|   |   |   |   |   |--- runtime_minutes <= 90.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- runtime_minutes >  90.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |--- genre_Documentary >  0.50
+|   |   |   |--- runtime_minutes <= 59.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- runtime_minutes >  59.00
+|   |   |   |   |--- genre_Action <= 0.50
+|   |   |   |   |   |--- runtime_minutes <= 102.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- runtime_minutes >  102.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- genre_Action >  0.50
+|   |   |   |   |   |--- class: 1
+|   |--- genre_Horror >  0.50
+|   |   |--- runtime_minutes <= 96.50
+|   |   |   |--- year <= 2012.50
+|   |   |   |   |--- runtime_minutes <= 80.50
+|   |   |   |   |   |--- runtime_minutes <= 65.00
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- runtime_minutes >  65.00
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- runtime_minutes >  80.50
+|   |   |   |   |   |--- year <= 2002.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- year >  2002.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- year >  2012.50
+|   |   |   |   |--- runtime_minutes <= 77.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- runtime_minutes >  77.50
+|   |   |   |   |   |--- runtime_minutes <= 82.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- runtime_minutes >  82.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |--- runtime_minutes >  96.50
+|   |   |   |--- genre_Mystery <= 0.50
+|   |   |   |   |--- year <= 1982.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- year >  1982.50
+|   |   |   |   |   |--- year <= 2014.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- year >  2014.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- genre_Mystery >  0.50
+|   |   |   |   |--- decade <= 2015.00
+|   |   |   |   |   |--- runtime_minutes <= 103.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- runtime_minutes >  103.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- decade >  2015.00
+|   |   |   |   |   |--- runtime_minutes <= 101.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- runtime_minutes >  101.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|--- runtime_minutes >  105.50
+|   |--- genre_Adventure <= 0.50
+|   |   |--- runtime_minutes <= 118.50
+|   |   |   |--- genre_Drama <= 0.50
+|   |   |   |   |--- genre_Documentary <= 0.50
+|   |   |   |   |   |--- year <= 2016.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- year >  2016.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- genre_Documentary >  0.50
+|   |   |   |   |   |--- genre_Crime <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Crime >  0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |--- genre_Drama >  0.50
+|   |   |   |   |--- genre_Mystery <= 0.50
+|   |   |   |   |   |--- genre_Action <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Action >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- genre_Mystery >  0.50
+|   |   |   |   |   |--- year <= 2019.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- year >  2019.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |--- runtime_minutes >  118.50
+|   |   |   |--- decade <= 2015.00
+|   |   |   |   |--- genre_Comedy <= 0.50
+|   |   |   |   |   |--- genre_Documentary <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Documentary >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- genre_Comedy >  0.50
+|   |   |   |   |   |--- runtime_minutes <= 130.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- runtime_minutes >  130.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- decade >  2015.00
+|   |   |   |   |--- genre_Action <= 0.50
+|   |   |   |   |   |--- genre_Horror <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Horror >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- genre_Action >  0.50
+|   |   |   |   |   |--- runtime_minutes <= 124.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- runtime_minutes >  124.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |--- genre_Adventure >  0.50
+|   |   |--- runtime_minutes <= 122.50
+|   |   |   |--- genre_Action <= 0.50
+|   |   |   |   |--- genre_Family <= 0.50
+|   |   |   |   |   |--- runtime_minutes <= 119.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- runtime_minutes >  119.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- genre_Family >  0.50
+|   |   |   |   |   |--- runtime_minutes <= 113.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- runtime_minutes >  113.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- genre_Action >  0.50
+|   |   |   |   |--- genre_Animation <= 0.50
+|   |   |   |   |   |--- year <= 1992.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- year >  1992.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- genre_Animation >  0.50
+|   |   |   |   |   |--- runtime_minutes <= 108.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- runtime_minutes >  108.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- runtime_minutes >  122.50
+|   |   |   |--- genre_Sci-Fi <= 0.50
+|   |   |   |   |--- runtime_minutes <= 133.50
+|   |   |   |   |   |--- genre_Action <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Action >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- runtime_minutes >  133.50
+|   |   |   |   |   |--- genre_Family <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Family >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- genre_Sci-Fi >  0.50
+|   |   |   |   |--- year <= 2021.50
+|   |   |   |   |   |--- genre_Mystery <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- genre_Mystery >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- year >  2021.50
+|   |   |   |   |   |--- class: 3

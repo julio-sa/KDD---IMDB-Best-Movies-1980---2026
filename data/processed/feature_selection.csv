@@ -1,0 +1,11 @@
+ANOVA,MutualInfo,RandomForest,RFE
+log_votes,num_votes,average_rating,year
+average_rating,log_votes,num_votes,runtime_minutes
+num_votes,average_rating,log_votes,average_rating
+runtime_minutes,votes_cat,rating_cat,num_votes
+runtime_cat,rating_cat,votes_cat,log_votes
+genre_Horror,runtime_cat,runtime_minutes,genre_Biography
+genre_Drama,runtime_minutes,runtime_cat,genre_Documentary
+rating_cat,genre_Horror,year,genre_Thriller
+genre_Documentary,genre_Drama,genre_Drama,genre_War
+genre_Biography,genre_Comedy,genre_Horror,rating_cat

@@ -1,0 +1,60 @@
+
+======================================================================
+CLUSTER 0: Forgotten Films   (4484movies)
+======================================================================
+           title  year                  genres  average_rating  num_votes
+One Crazy Summer  1986          Comedy,Romance             6.4      18294
+     Being Flynn  2012                   Drama             6.4      18239
+   Laurel Canyon  2002                   Drama             6.4      18102
+     Phantasm II  1988   Fantasy,Horror,Sci-Fi             6.4      18076
+      Beach Rats  2017                   Drama             6.4      17960
+ Armageddon Time  2022                   Drama             6.4      17947
+        Hamlet 2  2008            Comedy,Music             6.4      17884
+   Total Eclipse  1995 Biography,Drama,Romance             6.4      17786
+ The Aristocrats  2005      Comedy,Documentary             6.4      17401
+   Certain Women  2016                   Drama             6.4      17292
+
+======================================================================
+CLUSTER 1: Mass Favorites   (3299movies)
+======================================================================
+                                            title  year                  genres  average_rating  num_votes
+                         The Shawshank Redemption  1994                   Drama             9.3    3182733
+                                  The Dark Knight  2008      Action,Crime,Drama             9.1    3161984
+    The Lord of the Rings: The Return of the King  2003 Adventure,Drama,Fantasy             9.0    2161551
+The Lord of the Rings: The Fellowship of the Ring  2001 Adventure,Drama,Fantasy             8.9    2203274
+                                        Inception  2010 Action,Adventure,Sci-Fi             8.8    2811692
+                                       Fight Club  1999    Crime,Drama,Thriller             8.8    2601984
+                                     Forrest Gump  1994           Drama,Romance             8.8    2492584
+                                 Schindler's List  1993 Biography,Drama,History             9.0    1583450
+                                     Pulp Fiction  1994             Crime,Drama             8.8    2431723
+            The Lord of the Rings: The Two Towers  2002 Adventure,Drama,Fantasy             8.8    1954133
+
+======================================================================
+CLUSTER 2: Cult Darlings   (4794movies)
+======================================================================
+                                   title  year                genres  average_rating  num_votes
+                                  Shahid  2012       Biography,Drama             8.2      21534
+                              Earthlings  2005           Documentary             8.6      20514
+                       Pariyerum Perumal  2018                 Drama             8.6      20481
+                        Paris Is Burning  1990           Documentary             8.2      21076
+                             Section 375  2019   Crime,Drama,Mystery             8.1      21248
+How to Make Millions Before Grandma Dies  2024   Comedy,Drama,Family             7.9      21961
+                                   #Home  2021          Drama,Family             8.7      19624
+                Manjhi: The Mountain Man  2015       Biography,Drama             8.0      21197
+                            Super Deluxe  2019    Comedy,Crime,Drama             8.2      19914
+                                Hridayam  2022 Drama,Musical,Romance             8.0      20737
+
+======================================================================
+CLUSTER 3: Mainstream Popcorn   (3668movies)
+======================================================================
+                     title  year                    genres  average_rating  num_votes
+        Jackass: The Movie  2002 Action,Comedy,Documentary             6.6     106192
+        The Lost City of Z  2016 Adventure,Biography,Drama             6.6     105696
+             Weird Science  1985     Comedy,Romance,Sci-Fi             6.6     105649
+         Bad Boys for Life  2020       Action,Comedy,Crime             6.5     196947
+Pokémon: Detective Pikachu  2019   Adventure,Comedy,Family             6.5     196709
+Rambo: First Blood Part II  1985 Action,Adventure,Thriller             6.5     195732
+                  Twisters  2024 Action,Adventure,Thriller             6.5     194569
+                  Carry-On  2024     Action,Crime,Thriller             6.5     192973
+        Sonic the Hedgehog  2020   Action,Adventure,Comedy             6.5     192408
+      Hot Shots! Part Deux  1993             Action,Comedy             6.6     103768

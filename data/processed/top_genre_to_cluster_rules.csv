@@ -1,0 +1,18 @@
+antecedents_str,consequents_str,support,confidence,lift
+"genre_Drama, rating_cat_Top, votes_cat_Massive",ClusterName_Mass Favorites,0.06180363188673438,1.0,4.924219460442558
+"genre_Drama, votes_cat_Massive",ClusterName_Mass Favorites,0.09258233302554632,0.7412518482010843,3.650086776000792
+"genre_Drama, rating_cat_Top",ClusterName_Mass Favorites,0.09024315173899661,0.5158339197748064,2.540079426111467
+"genre_Drama, rating_cat_Low",ClusterName_Forgotten Films,0.07916281932902432,0.7879901960784313,2.85479499002991
+"genre_Horror, rating_cat_Low",ClusterName_Forgotten Films,0.05706371191135734,0.7518248175182483,2.7237721143139924
+"genre_Comedy, rating_cat_Low",ClusterName_Forgotten Films,0.0770698676515851,0.7121729237770194,2.5801180077514894
+"genre_Action, rating_cat_Low",ClusterName_Forgotten Films,0.05472453062480764,0.664424514200299,2.407131184920575
+"genre_Comedy, votes_cat_Some",ClusterName_Forgotten Films,0.05355493998153278,0.5788423153692615,2.097077032375926
+genre_Horror,ClusterName_Forgotten Films,0.069067405355494,0.5118613138686131,1.8544128108375602
+"genre_Drama, votes_cat_Some",ClusterName_Forgotten Films,0.061064943059402896,0.4089035449299258,1.4814090293012143
+"genre_Comedy, votes_cat_Many",ClusterName_Mainstream Popcorn,0.053616497383810406,0.5633893919793015,2.495163760279104
+"genre_Drama, votes_cat_Many",ClusterName_Mainstream Popcorn,0.06531240381655894,0.44116424116424113,1.9538476275117496
+"genre_Drama, votes_cat_Few",ClusterName_Cult Darlings,0.09399815327793166,0.6473081814328104,2.193475470875262
+"genre_Drama, votes_cat_Some",ClusterName_Cult Darlings,0.08827331486611265,0.5910964550700741,2.002995809890145
+"genre_Drama, rating_cat_High",ClusterName_Cult Darlings,0.0907356109572176,0.5851528384279476,1.982855206562789
+"genre_Drama, rating_cat_Top",ClusterName_Cult Darlings,0.08470298553401047,0.48416608022519353,1.6406503907505776
+"genre_Comedy, genre_Drama",ClusterName_Cult Darlings,0.06131117266851339,0.40653061224489795,1.377574008326735

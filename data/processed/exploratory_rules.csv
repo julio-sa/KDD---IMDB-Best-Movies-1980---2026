@@ -1,0 +1,4 @@
+antecedents_str,consequents_str,support,confidence,lift
+"ClusterName_Forgotten Films, genre_Horror",rating_cat_Low,0.05706371191135734,0.8262032085561498,3.062211070726592
+"ClusterName_Forgotten Films, genre_Action",rating_cat_Low,0.05472453062480764,0.7663793103448276,2.8404818381363737
+"ClusterName_Forgotten Films, genre_Comedy",rating_cat_Low,0.0770698676515851,0.7069452286843592,2.6201974081627686

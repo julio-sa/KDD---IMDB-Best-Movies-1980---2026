@@ -1,0 +1,6 @@
+Algorithm,Full Features,Selected Features,Difference
+KNN,0.2554,0.2557,0.0003
+Neural Network,0.4894,0.5083,0.0189
+SVM,0.4034,0.4033,-0.0001
+Naive Bayes,0.5376,0.5335,-0.0041
+J48 (Decision Tree),0.7133,0.7102,-0.0031

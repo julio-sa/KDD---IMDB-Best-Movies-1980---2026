@@ -1,0 +1,27 @@
+Decision Tree Rules
+max_depth=3, min_samples_split=2
+Classes: {np.int64(0): 'Forgotten', np.int64(1): 'MassFav', np.int64(2): 'Cult', np.int64(3): 'Popcorn'}
+======================================================================
+
+|--- log_votes <= 10.02
+|   |--- average_rating <= 6.25
+|   |   |--- average_rating <= 6.05
+|   |   |   |--- class: 0
+|   |   |--- average_rating >  6.05
+|   |   |   |--- class: 0
+|   |--- average_rating >  6.25
+|   |   |--- average_rating <= 6.45
+|   |   |   |--- class: 2
+|   |   |--- average_rating >  6.45
+|   |   |   |--- class: 2
+|--- log_votes >  10.02
+|   |--- average_rating <= 6.75
+|   |   |--- rating_cat <= 0.50
+|   |   |   |--- class: 3
+|   |   |--- rating_cat >  0.50
+|   |   |   |--- class: 3
+|   |--- average_rating >  6.75
+|   |   |--- log_votes <= 10.17
+|   |   |   |--- class: 2
+|   |   |--- log_votes >  10.17
+|   |   |   |--- class: 1
